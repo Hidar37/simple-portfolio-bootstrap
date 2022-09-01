@@ -369,4 +369,19 @@ header {
     font-size: 1.3rem;
     margin-top: 1.5rem;
   }
+
+  .navbar h3 {
+    animation-name: welcome;
+    animation-duration: 1s;
+  }
+
+  @keyframes welcome {
+    from {
+      transform: rotate(0);
+    }
+
+    to {
+      transform: rotate(-720deg);
+    }
+  }
 }
